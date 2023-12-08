@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.foarma{
+
+    background-color: rgb(237, 170, 34);
+}
+.foarmb{
+
+    
+    background-color: rgb(40, 160, 203);
+}
+.foarmc{
+
+    background-color: rgb(3, 78, 68);
+}
+.two-column{
+    display: flex;
+}
+.div1{
+    background-color:rgb(48, 6, 69);
+}
+.heading{
+    font-size: 58px;
+    color: white;
+    margin-top: 38px;
+}
+
+#form-page{
+    background-color: rgb(63, 44, 134);
+}
+
+td{
+    color: white;
+    font-size: 18px;
+}
+
+.paragraph{
+    color: whitesmoke;
+    font-size: 30px;
+}
+.nav{
+    display: inline-block;
+}
+.nav{
+    display: flex;
+}
+.mn{
+    margin:auto;
+}
+
+
+/* @media (min-width:768px) {
+    .container {
+        max-width: 768px;
+        margin: 0 auto;
+    }
+}
+
+/* CSS for smaller screens 
+@media (max-width: 767px) {
+    .container {
+        padding: 10px;
+    }
+} */
+.container{
+    margin: 10px;
+
+}
+
+nav{
+    width: 100%;
+    display: flex;
+    background-color: black;
+}
+
+
+nav a{
+    text-decoration: none;
+    margin: 5px 15px;
+    color: white;
+
+}
+nav a:hover{
+   color: black;
+   background-color: white;
+   padding: 0px, 18px, 0px, 18px;
+   border-radius: 15px;
+   margin: 5px, 20px;
+
+}
+.three-column{
+    display: flex;
+    color: white;
+    width: 100%;
+    margin: auto;
+    height: 400px;
+}
+.three-column div{
+   width: 100%;
+   
+}
+.three-column div h1{
+   width: auto;
+   text-align: center;
+   color: white;
+}
+.three-column div p{
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 90px;
+    text-align: center;
+
+}
+.three-column div a{
+    background-color: white;
+    border-radius: 20px;
+    padding: 10px 20px;
+    text-decoration: none;
+    margin-left: 40%;
+    }
+.three-column div img{
+    margin-left: 35%;
+}
+/* .form-nave a{
+    color: aliceblue;
+} */
+/* nav a.test-a1{
+    background-color: blue;
+    margin: 5px 10px 40px 20px;
+} */
+
+
