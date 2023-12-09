@@ -178,7 +178,7 @@ const studentFoarmComp = () => {
       </tr>
 
       <tr>
-        <td style= {{padding:"8px", borderRadius: "2px", color: "white", textAlign: "center"}}>
+        <td style= {{padding:"38px", borderRadius: "2px", color: "white", textAlign: "center"}}>
           <button ></button><input type="submit" value="Submit"  />{" "}
           <input type="reset" value="Reset" />
         </td>
@@ -186,7 +186,7 @@ const studentFoarmComp = () => {
           <a
             href="/"
             style={{backgroundColor: "white", color: "black", borderRadius: "5px",
-               textDecoration: "none", padding:"8px"}}
+          padding:"8px", textDecoration: "none"}}
           >
             {" "}
             Back{" "}

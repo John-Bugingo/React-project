@@ -28,7 +28,7 @@ const HomePage = () => {
   
       <div className="div2">
         <div className="stylish"></div>
-        <img src="public/images/image-header-desktop.jpg" alt="" style={{height: "565px"}}/>
+        <img src="./images/image-header-desktop.jpg" alt="" style={{height: "565px"}}/>
       </div>
     </div>
   </div>
