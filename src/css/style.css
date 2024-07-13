@@ -458,6 +458,8 @@ form h1{
 }
 .containerB{
     margin-top: 80px;
+    display: flex;
+    flex-wrap: wrap;
 }
 .card{
     border: 1px solid hsl(0, 0%, 4%);
