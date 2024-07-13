@@ -1,0 +1,642 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* login........... */
+
+
+
+
+/*
+.header1{
+    color: blue;
+    font-size: 30px;
+    font-family: sans-serif;
+}
+.underline{
+    background-color:blue;
+    height: 6px;
+    width: 15%;
+    border-radius: 7px;
+}
+ .inputs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;  
+    gap: 0.5rem;  
+    border: none;
+    padding: 15px;
+    border-radius: 8px;
+    
+}
+.input{
+    padding:5px 15px;
+    font-size: 30px;
+    background-color: rgb(221, 221, 221);
+    
+}
+.input input{
+    padding-left: 15px;
+    font-size: 25px;
+    padding: 2px, 10px;
+    background-color: transparent;
+    height: 50px;
+    border: none;
+    outline: 0;
+    color: black;
+    cursor: pointer;        
+}
+.forgot-password label{
+    font-size: 22px;
+    color: blue;  
+    cursor: pointer;  
+}
+.forgot-password p{
+    font-size: 22px;
+    font-weight: 273px;
+}
+.sign-login{
+    margin-top: 23px;
+    gap: 5rem;
+    display: flex;
+}
+.submitt{
+    color: white;
+    background-color: blue;
+    padding: 5px 22px;
+    font-size: 23px;
+    border-radius: 50px;
+    cursor: pointer;
+    font-weight: 700;
+}
+.gray{
+    color: white;
+    background-color:gray;
+    padding: 5px 22px;
+    font-size: 23px;
+    border-radius: 50px;
+    cursor: pointer;
+    font-weight: 700;
+}
+ */
+
+/* contact me  */
+.contact0{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #CCF381;
+}
+.contact1{
+    background: linear-gradient(#ffdad9, #fff7f9);
+    /* background-color:rgb(72,49,212); */
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    margin-top: 80px;
+    gap: 3rem;
+}
+.socialmedia{
+    margin: 35px auto;
+    background: ;
+    height: 78vh;
+    width: 50%;
+    border-radius: 8px;
+    /* box-shadow:6px 2px 72px #221716; */
+    margin-left: 34px;
+    gap: 4rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.socialmedia .x h1{
+    text-align: center;
+    color: black;
+
+}
+.contact2{
+    box-shadow: 5px 5px 25px rgb(169, 79, 79);
+    background-color: white;
+    border-radius: 11px;
+    display: flex;
+    flex-direction: column;
+    align-items:start;
+    width: 50%;
+    margin-right: 142px;
+}
+.contactfoam{
+    width: 100%;
+    margin: 0px 35px;
+    gap: 0.5rem;
+    display: flex;
+    align-items: center;
+    flex-direction:column;
+}
+.contactInput{
+    width: 70%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.contactInput input, textarea{
+    background-color:rgb(230, 232, 234);
+    width: 100%;
+    height: 35px;
+    font-size: 20px;
+    border: 0;
+    outline: 0;
+    padding-left: 15px;
+}
+.contactInput textarea{
+    height: 110px;
+    resize: none;
+}
+.login2{
+    margin-top: 80px;
+}
+
+.contactheader h1{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-weight: 700;
+    padding:22px;
+}
+.send, .gr {
+    color: white;
+    background-color: rgb(221, 74, 74);
+    font-size: 20px;
+    border-radius: 40px;
+    cursor: pointer;
+    width: 100px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 12px;
+}
+.gr{
+    width: 200px;
+    background-color: rgb(10, 162, 208);
+}
+
+/* ...................................... */
+
+
+
+
+.div0{
+    display: flex;
+}
+.div1{
+    background-image: url("C:\Users\pc\Desktop\my-portfolio\public\images.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 75%;
+    height: 100vh;
+    margin: 0;
+    padding: 0;   
+}
+.home0{
+    display: block;
+    align-items: center;
+    justify-content: center;
+
+    
+}
+.table1{
+    margin-top: 20px;
+    align-items: center;
+    justify-content: center;
+    display: inline-block;
+    white-space: nowrap;
+    animation: scroll 28s linear infinite;
+    }
+
+    @keyframes scroll {
+        0% {
+            transform: translateX(100%);
+        }
+        100% {
+            transform: translateX(-100%);
+            }
+        }
+
+.table1 img{
+    height: 400px;
+} 
+
+/* home */
+.home1{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.div0{
+  margin-top: 80px;  
+}
+
+.heading1{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+} 
+.div2{
+    background-color:hsl(81, 52%, 90%);
+    width: 25%;
+    display: block;
+    height: 100vh;
+    top: 0;
+}
+
+.div2 p{
+    margin: 20px 5px 0 15px;
+    font-size: 22px;
+    font-family: sans-serif;
+}
+.div2 p label{
+    font-size: 80px;
+    display: flex;
+    justify-content: end;
+    text-align: end;
+}
+/* .............................................. */
+
+
+/*Login page*/
+
+.container1,.form_box{
+    background-color: rgb(72,49,212);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+    height: 100vh;
+    margin: 0;
+    box-sizing: border-box;
+}
+form, .register_container{
+    border-radius: 14px;
+    background-color: white;
+    padding: 33px;
+    width: 35%;
+    /* display: flex;
+    align-items: center;
+    flex-direction: column; */
+}
+form h1{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-weight: 900;
+    text-decoration: underline;
+    margin-bottom: 22px;
+    color: rgb(72,49,212);
+}
+.inputs, .input_box{
+    width: 100%;
+    height: 40px;
+    position: relative;
+    margin-bottom: 22px;
+}
+
+
+.inputs input, .input_field{
+    width: 100%;
+    position: absolute;
+    height: 100%;
+    font-size: 15px;
+    outline: 0;
+    border: 670px 80px 12px black;
+    background: transparent;
+    border-radius: 14px;
+    padding: 15px 50px;
+    
+    
+}
+.fg{
+    display: flex;
+    justify-content: space-between;
+}
+.fg label a:hover, .sg label a:hover{
+    color: rgb(72,49,212);
+}
+.fg label a, .sg label a{
+    color: black;
+    font-weight: 800;
+}
+.loginbtn{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin: 12px;
+}
+
+.loginbtn button, .button{
+    background-color: rgb(72,49,212);
+    width: 100%;
+    height: 40px;
+    font-size: 20px;
+    font-weight: 800;
+    color: white;
+    border: 0;
+    border-radius: 14px;
+}
+
+
+
+/* about me page css */
+.abou1{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-color: blue;
+}
+.aboutClass{
+    margin-top: 80px;
+    display: flex;
+}
+.aboutClass1{
+    width: 33%;
+    height: 100vh;
+    background-color: rgb(244,240,237);
+}
+.aboutClass1 h1{
+    text-align: center;
+    font-size: 60px;
+    font-family:serif;
+}
+.aboutClass1 p{
+    margin: 15px;
+    font-size: 20px;
+    font-family:serif;
+}
+.aboutClass2{
+    width: 33%;
+    height: 100vh;
+    background-color:rgb(244,240,237);
+}
+.aboutClass2 h1{
+    text-align: center;
+    font-size: 60px;
+    font-family:serif;
+}
+.aboutClass2 h2{
+    text-align: center;
+    font-size: 30px;
+    font-family:serif;
+}
+.aboutClass2 h3{
+    text-align: center;
+    font-size: 20px;
+    font-family:serif;
+}
+.aboutClass2 ul{
+    margin: 0 5px 0 25px;
+    font-size: 16px;    
+}
+.aboutClass2 p{
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+.aboutClass3{
+    width: 34%;
+    height: 100vh;
+    background-color: rgb(175, 235, 166)
+}
+
+.aboutClass3 h1{
+    font-size: large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+
+.ProjectClass{
+    display: flex;
+    background-color: black;
+    margin-top: 79px;
+}
+.ProjectClass1{
+    width: 50%;
+    height: 100vh;
+    background:antiquewhite;
+}
+.ProjectClass2{
+    width: 50%;
+    height: 100vh;
+}
+.ProjectClass21{
+    width:100%;
+    height: 50%;
+    background-color: rgb(234, 236, 238);
+}
+.ProjectClass22{
+    width: 98%;
+    height: 48%;
+    background:rgb(232, 261, 209);
+    box-shadow: 3px 3px 4px 7px rgb(48, 14, 14);
+}
+/* styling for blogs page */
+.containerBlogs{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex
+}
+.containerB{
+    margin-top: 80px;
+}
+.card{
+    border: 1px solid hsl(0, 0%, 4%);
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px black;
+    max-width: 400px;
+    margin: 10px;
+    padding: 30px 15px;
+    display: inline-block;
+    text-align: center;
+}
+.card a{
+    font-size: 20px;
+    color: blue;
+
+}
+/* sign up */
+
+
+/* .form_box{
+    text-align: center;
+    background-color: white;
+    margin-top: 150px;
+} */
+/* .register_container{
+    display: inline;
+    background-color: white;
+      
+} */
+
+.lb{
+    display: flex;
+}
+.lb p{
+    justify-content: flex-end;
+}
+.top span{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-weight: 900;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+.top h1{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-weight: 900;
+    text-decoration: underline;
+    margin-bottom: 22px;
+    color: rgb(72,49,212);
+}
+/* .......................................... */
+
+
+
+@media (max-width: 1024px) {
+    /* home page */
+
+    .div0{
+        display: block;
+    }
+    .div1, .div2{
+        width: 100%;
+        height: auto;
+    }
+    .table1 img{
+        width: 100%;
+        height: auto;
+    } 
+    /* about me */ 
+    .aboutClass{
+        display: flex;
+        flex-direction: column;
+    }
+    .aboutClass1, .aboutClass2, .aboutClass3{
+        width: 100%;
+        height: auto;
+    }
+    /* ................................... */
+    .ProjectClass, .ProjectClass2, .containerBlogs{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .ProjectClass1{
+        width: 100%;
+        height: 100vh;
+    }
+    .ProjectClass2{
+        width: 100%;
+        height: 200vh;
+    } 
+    .ProjectClass21{
+        width: 100%;
+        height: 50%;
+    }
+    .ProjectClass22
+    {
+        width: 100%;
+        height: 50%;
+    }
+    /* contact me */
+    .contact1{
+        margin-top: 180px;
+        display: flex;
+        flex-direction:column-reverse;
+        height: 100%;
+    }
+    .contact2{
+        margin-top: 100px;
+    }
+    .contact2, .socialmedia{
+        margin: auto;
+    }
+
+
+
+    /* ................................................ */
+    .div2 p{
+        margin: 20px 5px 0 15px;
+        font-size: 18px;
+        font-family: sans-serif;
+        padding: 0px 0px 70px 10px;
+
+    }
+    .div2 p label{
+        font-size: 50px;
+        display: flex;
+        justify-content: end;
+        text-align: end;
+    }
+    .div2{
+        background-color:hsl(81, 83%, 73%);
+        width: 100%;
+        display: block;
+        height: auto;
+    }
+
+    /* login page */
+    
+}
+
+
+
+
+
+
+/* .hamburger{
+    display: block;
+    cursor: pointer;
+    width: 35px;
+    height: 35px;
+    appearance: none;
+    background: none;
+    outline: none;
+    border: none;
+}
+.hamburger .bar, .hamburger:after, .hamburger:before{
+    content: '';
+    display: block;
+    width: 100%;
+    height: 5px;
+    background-color: white;
+    margin: 6px 0px;
+    transition: 0.4s;
+}
+
+.hamburger.active:before{
+    transform: rotate(-45deg) translate(-8px, 6px);
+}
+.hamburger.active:after{
+    transform: rotate(-45deg) translate(-9px, -8px);
+}
+.hamburger.is-active.bar{
+    opacity: 0;
+} */
+
+
+
