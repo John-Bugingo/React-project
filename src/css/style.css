@@ -342,16 +342,49 @@ form h1{
     margin: 12px;
 }
 
-.loginbtn button, .button{
+.loginbtn button{
     background-color: rgb(72,49,212);
-    width: 100%;
+    width: auto;
     height: 40px;
     font-size: 20px;
     font-weight: 800;
     color: white;
     border: 0;
-    border-radius: 14px;
+    border-radius: 8px;
+    margin-right: 20px;
+    
+  
 }
+.buttonA{
+    margin-right: 15px;
+}
+.buttonB, .buttonA{
+    display: inline;
+
+    width: auto;
+    height: 40px;
+    font-size: 20px;
+    font-weight: 600;
+    border: 0;
+    border-radius: 8px;
+    text-align: center;
+    justify-content: center;
+    padding: 0 10px 0 10px;
+}
+.buttonB:hover, .buttonA:hover{
+    display: inline;
+
+    width: auto;
+    height: 40px;
+    font-size: 20px;
+    font-weight: 600;
+    border: 0;
+    border-radius: 8px;
+    text-align: center;
+    justify-content: center;
+    padding: 0 10px 0 10px;
+}
+
 
 
 
