@@ -358,6 +358,13 @@ form h1{
 .buttonA{
     margin-right: 15px;
 }
+.post {
+    background: white;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
 .buttonB, .buttonA{
     display: inline;
 
@@ -384,7 +391,9 @@ form h1{
     justify-content: center;
     padding: 0 10px 0 10px;
 }
-
+.buttonB::disabled, .buttonA::disabled{
+    background-color: #ffdad9;
+}
 
 
 
